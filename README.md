@@ -188,7 +188,7 @@ This error is similar to torch.OutOfMemoryError and can be resolved by addressin
 ### `Future Warning`
 These warnings can be safely ignored.
 
-## what is the output of the training
+## What is the Output of the Training
 ```
 PS C:\xtts-trainer-no-ui-auto> python xtts_finetune_no_ui_auto.py --args_json args.json --datasets_json datasets.json
 
