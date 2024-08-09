@@ -262,6 +262,6 @@ TRAINING (2024-08-03 02:52:07)
 ```
 
 
-# <strong>Warning </strong>: This project is not developed by us; we are merely using it to train the model for Najdi and Khliji dialects support.
+# <strong>Warning </strong>: This project is not developed by us; we are merely using it to train the model for Najdi and Khaliji dialects support.
 
 ### All thanks to [Haurrus/xtts-trainer-no-ui-auto](https://github.com/Haurrus/xtts-trainer-no-ui-auto/) for the works he done on this project.
