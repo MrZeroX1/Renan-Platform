@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "Arabic Text-to-Speech using Fine-Tuning XTTSv2 model and trained on Najdi and Khaliji dialects ("
+title: "Rennan Platform"
+authors:
+  - name: "Sultan AlBayyat"
+  - name: "Fatimah Aljishi"
+  - name: "Hasan Alzayer"
+  - name: "Abdullah Al-Tamh"
+  - name: "Sarah Alshaikhmohammed"
+
+date-released: 2024-08-09
+version: "1.0"
+repository-code: "https://github.com/MrZeroX1/Rennan-Platform.git"
+url: "https://github.com/MrZeroX1/Rennan-Platform"
+
+# SADA Dataset Citation
+references:
+  - type: conference-paper
+    authors:
+      - name: "Areeb Alowisheq"
+      - name: "Abdullah Alrajeh"
+      - name: "Sadeen Alharbi"
+      - name: "Abdulmajeed Alrowithi"
+      - name: "Aljawharah Bin Tamran"
+      - name: "Asma Ibrahim"
+      - name: "Raghad Aloraini"
+      - name: "Raneem Alnajim"
+      - name: "Ranya Alkahtani"
+      - name: "Renad Almuasaad"
+      - name: "Sara Alrasheed"
+      - name: "Shaykhah Alsubaie"
+      - name: "Yaser Alonaizan"
+    title: "SADA - SBA & SDAIA Audio Dataset for Arabic"
+    booktitle: "To be published"
+    year: 2023
+    affiliation: "NCAI-SDAIA"
+
+# Coqui TTS Citation
+  - type: software
+    title: "Coqui TTS"
+    abstract: "A deep learning toolkit for Text-to-Speech, battle-tested in research and production"
+    date-released: 2021-01-01
+    authors:
+      - family-names: "Eren"
+        given-names: "Gölge"
+      - name: "The Coqui TTS Team"
+    version: "1.4"
+    doi: "10.5281/zenodo.6334862"
+    license: "MPL-2.0"
+    url: "https://www.coqui.ai"
+    repository-code: "https://github.com/coqui-ai/TTS"
+    keywords:
+      - machine learning
+      - deep learning
+      - artificial intelligence
+      - text to speech
+      - TTS
+
+# Haurrus/xtts-trainer-no-ui-auto Citation
+  - type: software
+    title: "XTTS Trainer"
+    version: "1.0"
+    authors:
+      - name: "Haurrus"
+    date-released: 2023-01-01
+    url: "https://github.com/Haurrus/xtts-trainer-no-ui-auto.git"
