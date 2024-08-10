@@ -63,7 +63,7 @@ cd xtts-trainer-no-ui-auto
 4. Create a virtual environment: 
     - On Terminal 
     ``` bash
-    python3.11 -m venv venv
+    python -m venv myenv
     ```
     - On Anaconda 
     ``` bash
