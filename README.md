@@ -50,7 +50,7 @@ As Team we use [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) Da
 So here are stpes to Clean SADA Dataset to ready to Train:
 
 1. Download [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) Dataset and unzip it.
-2. Use the code `Cleaning.ipynb` from `Prepare_your_Data` folder.
+2. Use the code `Cleaning.ipynb` from `Prepare_your_Data` folder. (Remove '"', 'متحدث' form the data manually (Ctrl + H to Replace the text))
 3. Use `audio_segment.py` from `Prepare_your_Data` folder to Take Audio Segmentation from the date you just clean and Save it in a Directory.
 4. Use `split_data.ipynb` from `Prepare_your_Data` folder to Split the Data into Traning 70% and Test 30%.
 
