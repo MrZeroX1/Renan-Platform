@@ -46,7 +46,7 @@
 - `CUDA >= 11.8`
 
 ## Dataset We Use in This Project
-As a team, we use the [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) dataset, which includes a wide range of Arabic dialects. Below are the steps to clean the SADA dataset to make it ready for training:
+As a team, we use the SADA2022 dataset from Sadaia, which includes a wide range of Arabic dialects. Below are the steps to clean the SADA dataset to make it ready for training:
 
 1. Download [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) Dataset and unzip it.
 2. Use the `Cleaning.ipynb` file from the `Prepare_your_Data` folder. Manually remove " and متحدث from the data (use Ctrl + H to replace the text).
