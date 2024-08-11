@@ -45,14 +45,13 @@
 - `3.9.x <= Python < 3.12`
 - `CUDA >= 11.8`
 
-## Dataset We Use in this Project
-As Team we use [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) Dataset which include pretty much every Arabic Dialects
-So here are stpes to Clean SADA Dataset to ready to Train:
+## Dataset We Use in This Project
+As a team, we use the [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) dataset, which includes a wide range of Arabic dialects. Below are the steps to clean the SADA dataset to make it ready for training:
 
 1. Download [SADA2022](https://www.kaggle.com/datasets/sdaiancai/sada2022) Dataset and unzip it.
-2. Use the code `Cleaning.ipynb` from `Prepare_your_Data` folder. (Remove '"', 'متحدث' form the data manually (Ctrl + H to Replace the text))
-3. Use `audio_segment.py` from `Prepare_your_Data` folder to Take Audio Segmentation from the date you just clean and Save it in a Directory.
-4. Use `split_data.ipynb` from `Prepare_your_Data` folder to Split the Data into Traning 70% and Test 30%.
+2. Use the `Cleaning.ipynb` file from the `Prepare_your_Data` folder. Manually remove " and متحدث from the data (use Ctrl + H to replace the text).
+3. Use `audio_segment.py` from the `Prepare_your_Data` folder to segment the audio data you just cleaned and save it in a directory.
+4. Use `split_data.ipynb` from the `Prepare_your_Data` folder to split the data into 70% training and 30% testing sets.
 
 ## Installation
 Follow these steps for installation:
