@@ -157,7 +157,7 @@ if __name__ == "__main__":
             batch_size = json_args.get("batch_size", 2)
             grad_acumm = json_args.get("grad_acumm", 1)
             max_audio_length = json_args.get("max_audio_length", 11)
-            language = json_args.get("language", "fr")
+            language = json_args.get("language", "ar")
             
             # Determine the path for custom model
             custom_model = json_args.get("custom_model")
