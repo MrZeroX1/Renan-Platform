@@ -205,7 +205,7 @@ Looking for dataset at: C:\xtts-trainer-no-ui-auto\outwaves
  > Loading custom model: C:\xtts-trainer-no-ui-auto\models\main\model.pth
 
 >> DVAE weights restored from: C:\xtts-trainer-no-ui-auto\models\main\dvae.pth
- | > Found 40 files in 
+ | > Found 25786 files in 
 
  > Training Environment:
  | > Backend: Torch
